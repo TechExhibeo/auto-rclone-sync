@@ -35,5 +35,11 @@ Automate Syncing of Files across rclone remotes and send email notifications.
 
    Example of remotes.txt file:
  > source_gdrive:source_folder destination_gdrive:destination_folder
+
  > source_gdrive:source_folder destination_s3:destination_folder
+
  > source_s3:source_folder destination_onedrive:destination_folder
+ 
+ > source_gdrive3:source_folder destination_gdrive3:destination_folder --drive-server-side-across-configs --drive-acknowledge-abuse
+
+Note: For --drive-server-side-across-configs flag to work source folder owner require to share folder with destination owner.
