@@ -2,3 +2,4 @@ source_gdrive:source_folder destination_gdrive:destination_folder
 source_gdrive:source_folder destination_s3:destination_folder
 source_s3:source_folder destination_onedrive:destination_folder
 source_gdrive2:source_folder destination_gdrive2:destination_folder --drive-server-side-across-configs
+source_gdrive3:source_folder destination_gdrive3:destination_folder --drive-server-side-across-configs --drive-acknowledge-abuse
